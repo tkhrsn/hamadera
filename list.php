@@ -57,8 +57,8 @@
     <meta name="keywords" content="HTML,HTML5,タグ,たぐ,CSS,CSS3,スタイルシート,stylesheet,リファレンス,ウェブデザイン">
     <meta name="description" content="HTMLタグ・スタイルシート・特殊文字等の早見表">
     <title>はまでら</title>
-    <link rel="stylesheet" href="http://www.htmq.com/htmq.css">
-    <link rel="stylesheet" media="screen and (max-width:800px)" href="http://www.htmq.com/htmq_sp.css">
+    <link rel="stylesheet" href="./css/htmlq.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="./css/htmlq_sp.css">
     <link rel="shortcut icon" href="http://www.htmq.com/favicon.ico">
   </head>
   <body>
