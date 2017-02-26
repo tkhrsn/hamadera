@@ -1,20 +1,41 @@
 <?php
   // 共通変数
   $img_dir = './img/';
+  if (!is_dir($img_dir)) {
+    mkdir($img_dir);
+  }
+  
+  $cat_file = './img/cats.txt';
   
   // パラメータによる処理
   $st_make_cat = 'カテゴリ作成しちゃう';
   $flush = '';
   // カテゴリ作成
   if ($_GET['submit_type'] === $st_make_cat) {
-    mkdir($img_dir . $_GET['cat_name']);
+    if (is_file($cat_file)) {
+      $cats = explode("\n", file_get_contents($cat_file));
+      $cat_num = count($cats);
+    } else {
+      $cats = [];
+      $cat_num = 0;
+    }
+    
+    $cat_name = $_GET['cat_name'];
+    mkdir($img_dir . $cat_num);
+    
+    $put_txt = $cat_num.' '.$cat_name;
+    if (empty($cats)) {
+      file_put_contents($cat_file, $cat_name);
+    } else {
+      file_put_contents($cat_file, "\n".$cat_name, FILE_APPEND);
+    }
+    
     $flush = 'カテゴリ作ったお！！！！！！！';
   }
   
-  // カテゴリ一覧
-  $cats = array_splice(scandir($img_dir), 2);
+  $cats = explode("\n", file_get_contents($cat_file));
+  
 ?>
-
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -44,8 +65,8 @@
     <h2 class="header2">カテゴリ別小野寺一覧</h2>
     <h3 class="header3">小野寺のカテゴリを選べよ</h3>
     <div class="siyorei_source">
-      <?php foreach ($cats as $cat): ?>
-        <a href="./list.php?cat=" . <?php echo $cat?>><?php echo $cat?></a><br><br>
+      <?php foreach ($cats as $no => $cat): ?>
+        <a href="./list.php?cat=<?php echo $no?>"><?php echo $cat?></a><br><br>
       <?php endforeach; ?>
     </div>
     <h2 class="header2">カテゴリ作成</h2>
@@ -74,12 +95,11 @@
         <td nowrap>カテゴリ</td>
         <td valign="top" width="150">
           <select name="cat">
-            <?php foreach ($cats as $cat):?>
-              <option value="<?php echo $cat; ?>"><?php echo $cat; ?></option>
+            <?php foreach ($cats as $no => $cat):?>
+              <option value="<?php echo $no; ?>"><?php echo $cat; ?></option>
             <?php endforeach;?>
           </select>
         </td>
-        </tr>
         </tr>
       </table>
       <br>
