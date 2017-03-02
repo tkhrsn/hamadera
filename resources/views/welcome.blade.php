@@ -77,5 +77,6 @@
       <marquee direction="right">(風俗嬢について)野球が好きで野球選手になった、つーのとは違うからなぁ。</marquee>
       <marquee scrolldelay="100">F u k u s i m a 福島。トモダチ。</marquee>
       <marquee scrollamount="8">金井先生がジェンダー研究してる理由がなんとなくわかってきた</marquee>
+      <a href="http://29g.net/">おもしろフラッシュ総合サイト</a>
     </body>
 </html>
