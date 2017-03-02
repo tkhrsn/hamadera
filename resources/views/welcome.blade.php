@@ -65,31 +65,14 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
+      <marquee>服を選ぶなあ</marquee>
+      <marquee width="90%">チョンテセやんけ！テポドン落とさんといてな！</marquee>
+      <marquee behavior="scroll">高い視点に立ってより本質的な仕事ができる</marquee>
+      <marquee behavior="alternate">右翼は強制されるもんじゃねえんだよ</marquee>
+      <marquee behavior="slide">すごい出ましたね。写真撮らなくていいんですか？</marquee>
+      <marquee direction="left">風邪ですか？早くやって、早く寝ましょう！</marquee>
+      <marquee direction="right">例によって、今日も台本作ってきました。</marquee>
+      <marquee scrolldelay="100">陛陛陛！！幼幼幼！！</marquee>
+      <marquee scrollamount="8">まじで小池さんそっくり行きたいな、と思った。</marquee>
     </body>
 </html>
