@@ -70,5 +70,14 @@
       <marquee direction="right">例によって、今日も台本作ってきました。</marquee>
       <marquee scrolldelay="100">陛陛陛！！幼幼幼！！</marquee>
       <marquee scrollamount="8">まじで小池さんそっくりやん行きたいな、と思った。</marquee>
+      <marquee>大島行手配しちゃったぜ。夕方に大島について、だらだらして、20時くらいから朝まで釣りだぜひゃっほい。</marquee>
+      <marquee width="90%">ヤバイ。奥華子ヤバイ。まじでヤバイよ、マジヤバイ。コードヤバイ。</marquee>
+      <marquee behavior="scroll">PCBはベンゼン環の水素が塩素で置換されたものが二つ結合したもの。絶縁性高い、熱に対して安定、難水溶性、耐薬品性が高い、と化学的に極めて安定。</marquee>
+      <marquee behavior="alternate">イトヨリダイ？のそこそこのやつが釣れた。中々に引きは強かった。</marquee>
+      <marquee behavior="slide">コートジボワールというとドロクバとチョコレートしかわからない</marquee>
+      <marquee direction="left">横浜に戻ったならば俺は(泣きながら)吉村家のラーメン食べるだろう。</marquee>
+      <marquee direction="right">(風俗嬢について)野球が好きで野球選手になった、つーのとは違うからなぁ。</marquee>
+      <marquee scrolldelay="100">F u k u s i m a 福島。トモダチ。</marquee>
+      <marquee scrollamount="8">金井先生がジェンダー研究してる理由がなんとなくわかってきた</marquee>
     </body>
 </html>
