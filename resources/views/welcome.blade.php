@@ -74,5 +74,6 @@
       <marquee direction="right">例によって、今日も台本作ってきました。</marquee>
       <marquee scrolldelay="100">陛陛陛！！幼幼幼！！</marquee>
       <marquee scrollamount="8">まじで小池さんそっくり行きたいな、と思った。</marquee>
+      <div align="center"><font size="6"><b><font color="#c20000">どこ</font><font color="#cc5c00">相手</font><font color="#d6c100">にし</font><font color="#92e100">ても</font><font color="#2feb00">リア</font><font color="#00f53d">ルに</font><font color="#00ffb3">言う</font><font color="#00e1f6">。そ</font><font color="#007eee">れが</font><font color="#0021e5">大同</font><font color="#3500dc">生命</font><font color="#8500d3">辞め</font><font color="#cb00c8">る理</font><font color="#c20074">由</font></b></font></div>
     </body>
 </html>
