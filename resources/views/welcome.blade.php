@@ -78,6 +78,7 @@
       <marquee scrolldelay="100">F u k u s i m a 福島。トモダチ。</marquee>
       <marquee scrollamount="8">金井先生がジェンダー研究してる理由がなんとなくわかってきた</marquee>
       <a href="http://29g.net/">おもしろフラッシュ総合サイト</a><br>
-      <a href="https://www.2ch.net/">にちゃんねる</a>
+      <a href="https://www.2ch.net/">にちゃんねる</a><br>
+      <a href="http://www.thecruiser.jp/noriaki/">noriakiオフィシャルwebサイト</a>
     </body>
 </html>
