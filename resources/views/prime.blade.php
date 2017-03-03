@@ -7,6 +7,7 @@
 
         <title>素数</title>
     </head>
-    <img src="/img/prime_<?php echo $isPrime ? 'yes' : 'no' ?>.jpg"/><br>
+    URLの数字を変えてください。<br><br><br><br><br>
+    <img src="/img/prime_<?php echo $isPrime ? 'yes' : 'no' ?>.jpg"/>
     <?php echo $isPrime ? '素数である。' : '素数ではないッ！！' ?>
 </html>

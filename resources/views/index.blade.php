@@ -80,6 +80,7 @@
       <marquee scrollamount="8">金井先生がジェンダー研究してる理由がなんとなくわかってきた</marquee>
       <a href="http://29g.net/">おもしろフラッシュ総合サイト</a><br>
       <a href="https://www.2ch.net/">にちゃんねる</a><br>
-      <a href="http://www.thecruiser.jp/noriaki/">noriakiオフィシャルwebサイト</a>
+      <a href="http://www.thecruiser.jp/noriaki/">noriakiオフィシャルwebサイト</a><br>
+      <a href="/prime/1"><img src="/img/putti.jpg"></a>
     </body>
 </html>
