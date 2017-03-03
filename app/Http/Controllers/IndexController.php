@@ -23,9 +23,9 @@ class IndexController extends Controller
      */
     public function show()
     {
-        $this->accessCnt = $this->_getAccessCnt();
+        $ret['accessCnt'] = $this->_getAccessCnt();
 
-        return view('welcome');
+        return view('welcome', $ret);
     }
 
     /**

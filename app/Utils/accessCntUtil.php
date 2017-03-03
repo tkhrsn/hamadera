@@ -9,18 +9,6 @@ class accessCntUtil
     const TBL_KVS = 'key_value_stores';
 
     /**
-     *
-     * @return type
-     */
-    public static function access()
-    {
-        $newCnt = self::getCnt() + 1;
-        self::updateCnt($newCnt);
-
-        return $newCnt;
-    }
-
-    /**
      * アクセスカウントをkvsテーブルから取得する
      * @return type
      */
