@@ -11,8 +11,5 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
 Route::get('/', 'IndexController@show');
+Route::get('/prime/{id}', 'PrimeController@show');
