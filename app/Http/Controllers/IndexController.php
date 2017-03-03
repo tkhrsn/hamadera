@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Utils\accessCntUtil;
 
 class IndexController extends Controller
 {
@@ -22,6 +23,20 @@ class IndexController extends Controller
      */
     public function show()
     {
+        $this->accessCnt = $this->_getAccessCnt();
+
         return view('welcome');
+    }
+
+    /**
+     * アクセスカウント取得
+     * @return type
+     */
+    private function _getAccessCnt()
+    {
+        $newCnt = accessCntUtil::getCnt() + 1;
+        accessCntUtil::updateCnt($newCnt);
+
+        return $newCnt;
     }
 }
